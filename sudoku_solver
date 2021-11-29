@@ -1,0 +1,9 @@
+import numpy as np
+
+import pandas as pd
+from  matplotlib import pyplot as plt
+from scipy.optimize import curve_fit, zeros
+
+s = np.matrix(np.zeros((16, 16), dtype = np.int))
+
+print('test',s)
